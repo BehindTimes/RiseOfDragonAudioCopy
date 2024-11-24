@@ -165,13 +165,13 @@
     <Dialog ID="28">
       <Time>560</Time>
       <Text>Jeez, I'm a friggin' slob! Clothes everywhere, empty beer cans... Mom would roll in her grave...</Text>
-      <Audio>RD6501.SD4</Audio>
+      <Audio>RD6501_1.SD4</Audio>
     </Dialog>
     <Dialog ID="29">
       <Time>245</Time>
       <Text>if she'd had a grave... effin' punks!</Text>
       <AudioFiles>
-        <Audio>RD6501.SD4</Audio>
+        <Audio>RD6501_2.SD4</Audio>
         <Audio>RE6501.SD4</Audio>
       </AudioFiles>
     </Dialog>
@@ -183,14 +183,14 @@
     <Dialog ID="32">
       <Time>420</Time>
       <Text>Really need to get these sheets washed...not that they'd smell any better!</Text>
-      <Audio>RD6504.SD4</Audio>
+      <Audio>RD6504_2.SD4</Audio>
     </Dialog>
     <Dialog ID="33">
       <Time>770</Time>
       <Text>20 billion people... we've really screwed up this planet. Half of 'em could use a blaster shoved down their throat... Drugged-out punks!</Text>
       <AudioFiles>
         <Audio>RD6506.SD4</Audio>
-        <Audio>RE6506.SD4</Audio>
+        <Audio>RE6506_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="34">
@@ -205,7 +205,7 @@
     <Dialog ID="37">
       <Time>210</Time>
       <Text>Dirty, scuzzy place...I hate Los Angeles!</Text>
-      <Audio>RE6506.SD4</Audio>
+      <Audio>RE6506_2.SD4</Audio>
     </Dialog>
     <Dialog ID="38">
       <Time>180</Time>
@@ -248,7 +248,7 @@
     <Dialog ID="71">
       <Time>180</Time>
       <Text>A lumpy pillow.</Text>
-      <Audio>RD6504.SD4</Audio>
+      <Audio>RD6504_1.SD4</Audio>
     </Dialog>
     <Dialog ID="73">
       <Time>315</Time>
@@ -385,13 +385,13 @@
       <Text>Fisto bar.A black market item, Fisto bars are made of chocolate and melted banana peels. Chocolate is a very rare and sought-after item.</Text>
       <AudioFiles>
         <Audio>RD6518.SD4</Audio>
-        <Audio>RE6518.SD4</Audio>
+        <Audio>RE6518_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="46">
       <Time>420</Time>
       <Text>This just might come in handy for my friends at the Pleasure Dome.</Text>
-      <Audio>RE6518.SD4</Audio>
+      <Audio>RE6518_2.SD4</Audio>
     </Dialog>
     <Dialog ID="47">
       <Time>180</Time>
@@ -466,7 +466,7 @@
     <Dialog ID="2">
       <Time>420</Time>
       <Text>MAYOR VINCENZI:Hunter,We've had more reports come in of kids dying...</Text>
-      <Audio>RD0201A.SD4</Audio>
+      <Audio>RD0201A_1.SD4</Audio>
     </Dialog>
     <Dialog ID="4">
       <Time>480</Time>
@@ -479,7 +479,7 @@
     <Dialog ID="5">
       <Time>420</Time>
       <Text>MAYOR VINCENZI:...all were horribly disfigured like my... (gulp) ...my poor daughter.</Text>
-      <Audio>RD0201A.SD4</Audio>
+      <Audio>RD0201A_2.SD4</Audio>
     </Dialog>
     <Dialog ID="6">
       <Time>360</Time>
@@ -755,14 +755,14 @@
       <Text>DENG HWANG:Further resistance on your part is futile, Mr. Hunter.  You cannot win, and you will only bring destruction on yourself and those you care about.</Text>
       <AudioFiles>
         <Audio>RD4501C.SD4</Audio>
-        <Audio>RE4501C.SD4</Audio>
+        <Audio>RE4501C_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="96">
       <Time>525</Time>
       <Text>DENG HWANG:Consider my words carefully.  You will not receive another warning.  Good day.</Text>
       <AudioFiles>
-        <Audio>RE4501C.SD4</Audio>
+        <Audio>RE4501C_2.SD4</Audio>
         <Audio>RF4501C.SD4</Audio>
       </AudioFiles>
     </Dialog>
@@ -1642,7 +1642,7 @@
     <Dialog ID="13">
       <Time>315</Time>
       <Text>A scantily-clad woman undulates suggestively upon the raised stage.</Text>
-      <Audio>RD7406.SD4</Audio>
+      <Audio>RD7406_1.SD4</Audio>
     </Dialog>
     <Dialog ID="14">
       <Time>280</Time>
@@ -1655,7 +1655,7 @@
     <Dialog ID="61">
       <Time>180</Time>
       <Text>Hubba hubba!</Text>
-      <Audio>RD7406.SD4</Audio>
+      <Audio>RD7406_2.SD4</Audio>
     </Dialog>
     <Dialog ID="62">
       <Time>180</Time>
@@ -4675,12 +4675,12 @@
     <Dialog ID="23">
       <Time>315</Time>
       <Text>Chen has an impressive amount of expensive audio-video equipment. </Text>
-      <Audio>RD7502.SD4</Audio>
+      <Audio>RD7502_1.SD4</Audio>
     </Dialog>
     <Dialog ID="25">
       <Time>420</Time>
       <Text>Where does this guy get the money for all this stuff!</Text>
-      <Audio>RD7502.SD4</Audio>
+      <Audio>RD7502_2.SD4</Audio>
     </Dialog>
     <Dialog ID="26">
       <Time>180</Time>
@@ -5842,7 +5842,7 @@
     <Dialog ID="29">
       <Time>180</Time>
       <Text>LORAIN:I'm calling security!</Text>
-      <Audio>RE5402.SD4</Audio>
+      <Audio>RE5402_2.SD4</Audio>
     </Dialog>
     <Dialog ID="30">
       <Time>245</Time>
@@ -6158,7 +6158,7 @@
     <Dialog ID="108">
       <Time>315</Time>
       <Text>RECEPTIONIST:I never should've let you back there!</Text>
-      <Audio>RE5402.SD4</Audio>
+      <Audio>RE5402_1.SD4</Audio>
     </Dialog>
     <Dialog ID="109">
       <Time>180</Time>
@@ -6364,12 +6364,12 @@
     <Dialog ID="56">
       <Time>210</Time>
       <Text>Collar injector lines and control wires.</Text>
-      <Audio>RD8116.SD4</Audio>
+      <Audio>RD8116_1.SD4</Audio>
     </Dialog>
     <Dialog ID="57">
       <Time>420</Time>
       <Text>If only I had some way to short out this damned collar!</Text>
-      <Audio>RD8116.SD4</Audio>
+      <Audio>RD8116_2.SD4</Audio>
     </Dialog>
     <Dialog ID="58">
       <Time>665</Time>
@@ -6415,12 +6415,12 @@
     <Dialog ID="64">
       <Time>180</Time>
       <Text>DENG HWANG:Arise, my people!</Text>
-      <Audio>RD5701A.SD4</Audio>
+      <Audio>RD5701A_1.SD4</Audio>
     </Dialog>
     <Dialog ID="65">
       <Time>385</Time>
       <Text>DENG HWANG:The hour of our destiny is nearly upon us!</Text>
-      <Audio>RD5701A.SD4</Audio>
+      <Audio>RD5701A_2.SD4</Audio>
     </Dialog>
     <Dialog ID="66">
       <Time>200</Time>
@@ -6544,7 +6544,7 @@
       <Text>Through your dimming vision, you see Rocky and Bullwinkle approaching you.</Text>
       <AudioFiles>
         <Audio>RD8302.SD4</Audio>
-        <Audio>RE8302.SD4</Audio>
+        <Audio>RE8302_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="3">
@@ -6567,7 +6567,7 @@
       <Time>630</Time>
       <Text>Bullwinkle gives you a vicious kick to the head.  He must have steel tips in those big shoes.</Text>
       <AudioFiles>
-        <Audio>RE8302.SD4</Audio>
+        <Audio>RE8302_2.SD4</Audio>
         <Audio>RF8302.SD4</Audio>
       </AudioFiles>
     </Dialog>
@@ -6793,7 +6793,7 @@
     <Dialog ID="93">
       <Time>180</Time>
       <Text>BUM:We're all DOOOMED!</Text>
-      <Audio>RF0501B.SD4</Audio>
+      <Audio>RF0501B_2.SD4</Audio>
     </Dialog>
     <Dialog ID="94">
       <Time>315</Time>
@@ -6813,7 +6813,7 @@
     <Dialog ID="97">
       <Time>210</Time>
       <Text>BUM:Five thousand years he's waited...</Text>
-      <Audio>RF0501B.SD4</Audio>
+      <Audio>RF0501B_1.SD4</Audio>
     </Dialog>
     <Dialog ID="98">
       <Time>350</Time>
@@ -8910,12 +8910,12 @@
     <Dialog ID="33">
       <Time>180</Time>
       <Text>JONNY QWONG:WHAT??!</Text>
-      <Audio>RE2901A.SD4</Audio>
+      <Audio>RE2901A_1.SD4</Audio>
     </Dialog>
     <Dialog ID="34">
       <Time>490</Time>
       <Text>JONNY QWONG:You pathetic fool!  That still leaves us almost six days behind schedule!</Text>
-      <Audio>RE2901A.SD4</Audio>
+      <Audio>RE2901A_2.SD4</Audio>
     </Dialog>
     <Dialog ID="35">
       <Time>385</Time>
@@ -8925,12 +8925,12 @@
     <Dialog ID="36">
       <Time>245</Time>
       <Text>JONNY QWONG:To hell with the margins!</Text>
-      <Audio>RE2901B.SD4</Audio>
+      <Audio>RE2901B_1.SD4</Audio>
     </Dialog>
     <Dialog ID="37">
       <Time>280</Time>
       <Text>JONNY QWONG:Push the reactors to the redline!</Text>
-      <Audio>RE2901B.SD4</Audio>
+      <Audio>RE2901B_2.SD4</Audio>
     </Dialog>
     <Dialog ID="38">
       <Time>490</Time>
@@ -8992,7 +8992,7 @@
     <Dialog ID="2">
       <Time>180</Time>
       <Text>Wire terminal.</Text>
-      <Audio>RD7710.SD4</Audio>
+      <Audio>RD7710_1.SD4</Audio>
     </Dialog>
     <Dialog ID="3">
       <Time>180</Time>
@@ -9016,12 +9016,12 @@
     <Dialog ID="7">
       <Time>210</Time>
       <Text>Thick and confusing tangle of wires.</Text>
-      <Audio>RD7709.SD4</Audio>
+      <Audio>RD7709_1.SD4</Audio>
     </Dialog>
     <Dialog ID="8">
       <Time>350</Time>
       <Text>That sure is a thick and confusing tangle of wires!</Text>
-      <Audio>RD7709.SD4</Audio>
+      <Audio>RD7709_2.SD4</Audio>
     </Dialog>
     <Dialog ID="9">
       <Time>525</Time>
@@ -9074,10 +9074,7 @@
     <Dialog ID="61">
       <Time>180</Time>
       <Text>Damn! This looks really complicated!</Text>
-      <AudioFiles>
-        <Audio>RD7710.SD4</Audio>
-        <Audio>RD7710.SD4</Audio>
-      </AudioFiles>
+      <Audio>RD7710_2.SD4</Audio>
     </Dialog>
     <Dialog ID="62">
       <Time>490</Time>
@@ -9096,7 +9093,7 @@
     <Dialog ID="72">
       <Time>180</Time>
       <Text>Wire terminal.</Text>
-      <Audio>RD7710.SD4</Audio>
+      <Audio>RD7710_1.SD4</Audio>
     </Dialog>
     <Dialog ID="688">
       <Time>180</Time>
@@ -9567,12 +9564,12 @@
     <Dialog ID="5">
       <Time>245</Time>
       <Text>I wonder who that goon with the eyepatch is...</Text>
-      <Audio>RD2201A.SD4</Audio>
+      <Audio>RD2201A_1.SD4</Audio>
     </Dialog>
     <Dialog ID="6">
       <Time>245</Time>
       <Text>Maybe he's one of Chen's buddies.</Text>
-      <Audio>RD2201A.SD4</Audio>
+      <Audio>RD2201A_2.SD4</Audio>
     </Dialog>
     <Dialog ID="7">
       <Time>180</Time>
@@ -10697,7 +10694,7 @@
       <Text>The unpleasant odor of burning flesh reaches your nostrils a brief instant before the even more unpleasant realization that the flesh is yours.</Text>
       <AudioFiles>
         <Audio>RD8201.SD4</Audio>
-        <Audio>RE8201.SD4</Audio>
+        <Audio>RE8201_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="2">
@@ -10705,7 +10702,7 @@
       <Text>You barely have time to utter, "Oh, shi..." before your vocal cords snap and are fried, along with the rest of your body, to a crisp, private-detective remnant, by several thousand volts of high-amperage electricity.</Text>
       <AudioFiles>
         <Audio>RD8202.SD4</Audio>
-        <Audio>RE8201.SD4</Audio>
+        <Audio>RE8201_2.SD4</Audio>
         <Audio>RE8202.SD4</Audio>
         <Audio>RF8202.SD4</Audio>
       </AudioFiles>
@@ -10730,17 +10727,17 @@
     <Dialog ID="4">
       <Time>180</Time>
       <Text>On the other hand...</Text>
-      <Audio>RD2605B.SD4</Audio>
+      <Audio>RD2605B_1.SD4</Audio>
     </Dialog>
     <Dialog ID="5">
       <Time>420</Time>
       <Text>If I skip out on Karyn this time, she'll probably never speak to me again!</Text>
-      <Audio>RD2605B.SD4</Audio>
+      <Audio>RD2605B_2.SD4</Audio>
     </Dialog>
     <Dialog ID="6">
       <Time>805</Time>
       <Text>I don't want to get her pissed at me, and I've been, maybe, just a LITTLE inconsiderate lately...</Text>
-      <Audio>RE2605B.SD4</Audio>
+      <Audio>RE2605B_1.SD4</Audio>
     </Dialog>
     <Dialog ID="8">
       <Time>490</Time>
@@ -10755,7 +10752,7 @@
     <Dialog ID="10">
       <Time>180</Time>
       <Text>What should I do?</Text>
-      <Audio>RE2605B.SD4</Audio>
+      <Audio>RE2605B_2.SD4</Audio>
     </Dialog>
   </S74.SDS>
   <S75.SDS>
@@ -10772,10 +10769,12 @@
     <Dialog ID="4">
       <Time>180</Time>
       <Text>Man!  Am I tired...!</Text>
+      <Audio>RD2702_1.SD4</Audio>
     </Dialog>
     <Dialog ID="5">
       <Time>420</Time>
       <Text>I'll just close my eyes for a minute.  Maybe that'll help.</Text>
+      <Audio>RD2702_2.SD4</Audio>
     </Dialog>
   </S75.SDS>
   <S76.SDS>
@@ -10865,12 +10864,10 @@
     <Dialog ID="4">
       <Time>420</Time>
       <Text>RECEPTIONIST:Hmmm... Security isn't usually this slow.  I wonder what's keeping them?</Text>
-      <Audio>RD2702.SD4</Audio>
     </Dialog>
     <Dialog ID="5">
       <Time>180</Time>
       <Text>GUARD:Let's GET that guy!</Text>
-      <Audio>RD2702.SD4</Audio>
     </Dialog>
     <Dialog ID="6">
       <Time>315</Time>
@@ -10995,25 +10992,25 @@
     <Dialog ID="46">
       <Time>595</Time>
       <Text>THE VOICE OF BAHUMAT:Suffice it to say, M.T.Z. poisoning is an extremely unpleasant way to die!</Text>
-      <Audio>RE4001H.SD4</Audio>
+      <Audio>RE4001H_1.SD4</Audio>
     </Dialog>
     <Dialog ID="47">
       <Time>1050</Time>
       <Text>THE VOICE OF BAHUMAT:Consider this fair warning, Mr. Mayor. Do not attempt any tricks, or I will kill every living thing in the City and County of Los Angeles!</Text>
       <AudioFiles>
-        <Audio>RE4001H.SD4</Audio>
+        <Audio>RE4001H_2.SD4</Audio>
         <Audio>RF4001H.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="48">
       <Time>665</Time>
       <Text>THE VOICE OF BAHUMAT:I sincerely hope that will not be necessary.  I am, after all, a reasonable individual...</Text>
-      <Audio>RD4001I.SD4</Audio>
+      <Audio>RD4001I_1.SD4</Audio>
     </Dialog>
     <Dialog ID="49">
       <Time>385</Time>
       <Text>THE VOICE OF BAHUMAT:as long as my conditions are fulfilled!</Text>
-      <Audio>RD4001I.SD4</Audio>
+      <Audio>RD4001I_2.SD4</Audio>
     </Dialog>
     <Dialog ID="50">
       <Time>245</Time>
@@ -11040,12 +11037,12 @@
     <Dialog ID="32">
       <Time>490</Time>
       <Text>DENG HWANG:This interference is the result of William Hunter's meddling in our affairs.</Text>
-      <Audio>RE4601B.SD4</Audio>
+      <Audio>RE4601B_1.SD4</Audio>
     </Dialog>
     <Dialog ID="33">
       <Time>350</Time>
       <Text>DENG HWANG:A man you failed to stop, Brother Qwong!</Text>
-      <Audio>RE4601B.SD4</Audio>
+      <Audio>RE4601B_2.SD4</Audio>
     </Dialog>
     <Dialog ID="34">
       <Time>385</Time>
@@ -11055,12 +11052,12 @@
     <Dialog ID="35">
       <Time>245</Time>
       <Text>DENG HWANG:Bahumat's wrath must be appeased!</Text>
-      <Audio>RD4602B.SD4</Audio>
+      <Audio>RD4602B_1.SD4</Audio>
     </Dialog>
     <Dialog ID="36">
       <Time>280</Time>
       <Text>DENG HWANG:Your soul shall feed the Dragon!!</Text>
-      <Audio>RD4602B.SD4</Audio>
+      <Audio>RD4602B_2.SD4</Audio>
     </Dialog>
     <Dialog ID="37">
       <Time>180</Time>
@@ -11356,12 +11353,12 @@
     <Dialog ID="6">
       <Time>180</Time>
       <Text>KARYN:Unnhhh.</Text>
-      <Audio>RD5901.SD4</Audio>
+      <Audio>RD5901_1.SD4</Audio>
     </Dialog>
     <Dialog ID="7">
       <Time>180</Time>
       <Text>KARYN:AAAARRRRRRGGGGHH!!</Text>
-      <Audio>RD5901.SD4</Audio>
+      <Audio>RD5901_2.SD4</Audio>
     </Dialog>
     <Dialog ID="8">
       <Time>180</Time>
@@ -11416,7 +11413,7 @@
     <Dialog ID="3">
       <Time>180</Time>
       <Text>KARYN:Blade!!</Text>
-      <Audio>RD6004.SD4</Audio>
+      <Audio>RD6004_1.SD4</Audio>
     </Dialog>
     <Dialog ID="4">
       <Time>280</Time>
@@ -11468,16 +11465,14 @@
       <Text>MAYOR VINCENZI:The important thing is that Deng Hwang's drug cult has been broken up and his factory destroyed.  Thanks to my plan, the citizens of Los Angeles are safe again.</Text>
       <AudioFiles>
         <Audio>RD6202B.SD4</Audio>
-        <Audio>RE6202B.SD4</Audio>
-        <Audio>RE6301B.SD4</Audio>
+        <Audio>RE6202B_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="14">
       <Time>1085</Time>
       <Text>MAYOR VINCENZI:Compared to the well-being of this entire city, you are insignificant.  I can live with the sacrifice of two people if it means fourteen million can be saved.</Text>
       <AudioFiles>
-        <Audio>RE6202B.SD4</Audio>
-        <Audio>RE6301B.SD4</Audio>
+        <Audio>RE6202B_2.SD4</Audio>
         <Audio>RF6202B.SD4</Audio>
       </AudioFiles>
     </Dialog>
@@ -11535,16 +11530,14 @@
       <Text>MAYOR VINCENZI:The important thing is that Deng Hwang's drug cult has been broken up and his factory destroyed.  Thanks to my plan, the citizens of Los Angeles are safe again.</Text>
       <AudioFiles>
         <Audio>RD6301B.SD4</Audio>
-        <Audio>RE6202B.SD4</Audio>
-        <Audio>RE6301B.SD4</Audio>
+        <Audio>RE6301B_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="70">
       <Time>1085</Time>
       <Text>MAYOR VINCENZI:Compared to the well-being of this entire city, you are insignificant.  I can live with the sacrifice of one person if it means I can save fourteen million.</Text>
       <AudioFiles>
-        <Audio>RE6202B.SD4</Audio>
-        <Audio>RE6301B.SD4</Audio>
+        <Audio>RE6301B_2.SD4</Audio>
         <Audio>RF6301B.SD4</Audio>
       </AudioFiles>
     </Dialog>
@@ -11631,17 +11624,17 @@
     <Dialog ID="10">
       <Time>180</Time>
       <Text>Boy, am I thirsty!</Text>
-      <Audio>RD4004B.SD4</Audio>
+      <Audio>RD4004B_1.SD4</Audio>
     </Dialog>
     <Dialog ID="11">
       <Time>315</Time>
       <Text>Think I'll have a drink at this water fountain.</Text>
-      <Audio>RD4004B.SD4</Audio>
+      <Audio>RD4004B_2.SD4</Audio>
     </Dialog>
     <Dialog ID="12">
       <Time>180</Time>
       <Text>CITIZEN:Mmm...</Text>
-      <Audio>RD4004B.SD4</Audio>
+      <Audio>RD4004B_3.SD4</Audio>
     </Dialog>
     <Dialog ID="13">
       <Time>180</Time>
@@ -11812,15 +11805,15 @@
       <Text>Walking off into the sunset, you bask in the warm glow of Karyn's affection and the knowledge you have vanquished the forces of evil...</Text>
       <AudioFiles>
         <Audio>RD6202D.SD4</Audio>
-        <Audio>RE6202D.SD4</Audio>
+        <Audio>RE6202D_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="75">
       <Time>180</Time>
       <Text>...for now.</Text>
       <AudioFiles>
-        <Audio>RE6202D.SD4</Audio>
-        <Audio>RE6301D.SD4</Audio>
+        <Audio>RE6202D_2.SD4</Audio>
+        <Audio>RE6301D_2.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="76">
@@ -11828,7 +11821,7 @@
       <Text>Walking off into the sunset you console yourself over the loss of Karyn with the knowledge that you have vanquished the forces of evil...</Text>
       <AudioFiles>
         <Audio>RD6301D.SD4</Audio>
-        <Audio>RE6301D.SD4</Audio>
+        <Audio>RE6301D_1.SD4</Audio>
       </AudioFiles>
     </Dialog>
     <Dialog ID="77">

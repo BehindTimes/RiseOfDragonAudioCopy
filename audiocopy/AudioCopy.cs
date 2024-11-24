@@ -55,10 +55,14 @@ namespace audiocopy
                             int tempId = int.Parse(tempElement.GetAttribute("ID"));
                             string strOutFile = "aud" + strFile + tempId.ToString() + ".wav";
                             string strAudioFile = numNode.InnerText;
+                            if(strAudioFile.Contains("0201"))
+                            {
+                                int j = 9;
+                            }
                             strAudioFile = strAudioFile.Replace("SD4", "wav");
                             string strTempIn = strInAud + strAudioFile;
                             string strTempOut = strOutDir + strOutFile;
-                            if(File.Exists(strTempIn))
+                            if(File.Exists(strTempIn) && !File.Exists(strTempOut))
                             {
                                 File.Copy(strTempIn, strTempOut);
                             }

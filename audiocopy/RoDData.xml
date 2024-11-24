@@ -607,12 +607,12 @@
     <Dialog ID="36">
       <Time>210</Time>
       <Text>KARYN:We did have a date!</Text>
-      <Audio>RE0302A.SD4</Audio>
+      <Audio>RE0302A_1.SD4</Audio>
     </Dialog>
     <Dialog ID="37">
       <Time>315</Time>
       <Text>KARYN:Or did that happen to slip your mind?</Text>
-      <Audio>RE0302A.SD4</Audio>
+      <Audio>RE0302A_2.SD4</Audio>
     </Dialog>
     <Dialog ID="38">
       <Time>210</Time>

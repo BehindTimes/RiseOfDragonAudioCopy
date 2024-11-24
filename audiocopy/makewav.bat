@@ -74,3 +74,5 @@ Project1.exe --start=32 --length=84000 --rate=16276 --output=RE8302_1.wav RE8303
 Project1.exe --start=44032 --rate=16276 --output=RE8302_2.wav RE8303.SD4
 Project1.exe --start=32 --length=38000 --rate=16276 --output=RF0501B_1.wav RF0501B.SD4
 Project1.exe --start=38032 --rate=16276 --output=RE8302_2.wav RF0501B.SD4
+Project1.exe --start=32 --length=86000 --rate=16276 --output=RD6511_1.wav RD6511.SD4
+Project1.exe --start=86032 --rate=16276 --output=RD6511_2.wav RD6511.SD4

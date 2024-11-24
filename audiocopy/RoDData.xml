@@ -494,12 +494,12 @@
     <Dialog ID="8">
       <Time>430</Time>
       <Text>Books, books, books...why the hell do I have so many of these musty relics? </Text>
-      <Audio>RD6511.SD4</Audio>
+      <Audio>RD6511_1.SD4</Audio>
     </Dialog>
     <Dialog ID="10">
       <Time>300</Time>
       <Text>...not like I'm gonna read any of this stuff...</Text>
-      <Audio>RD6511.SD4</Audio>
+      <Audio>RD6511_2.SD4</Audio>
     </Dialog>
     <Dialog ID="11">
       <Time>650</Time>

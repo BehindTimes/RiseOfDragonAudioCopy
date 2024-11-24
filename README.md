@@ -7,8 +7,11 @@ While this isn't ready for primetime, it should be a start to help get the Scumm
 Instructions:
 
 Copy over the files from the SegaCD to a directory of your choice.
+
 Compile the Sega CD PCM Utility (https://forums.sonicretro.org/index.php?threads%2Fmcd_pcm-sega-cd-pcm-utility.24151%2F)
+
 Run makewav.bat in the directory the SD4 files are located in.
+
 Edit the parameters in public void copyAudio in AudioCopy.cs to point to the appropriate locations, and then run audiocopy.
 
 This will get you the files you need for the audio (excluding PCM files which need to be merged).  Then, you just need to build the appropriate version of ScummVM with modified changes to play the generated wave files.

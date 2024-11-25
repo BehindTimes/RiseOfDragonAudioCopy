@@ -12,14 +12,20 @@ namespace audiocopy
     {
         public void copyAudio()
         {
-            string strOutDir = "F:\\GOG Galaxy\\Games\\Rise of the Dragon\\audio\\";
-            string strInAud = "F:\\GOG Galaxy\\Games\\Rise of the Dragon\\audio_back\\";
-            string strFileData = "F:\\GOG Galaxy\\Games\\Rise of the Dragon\\RoDData.xml";
+            string strOutDir = Directory.GetCurrentDirectory() + "\\audio_back\\";
+            string strInAud = Directory.GetCurrentDirectory() + "\\";
+            string strFileData = Directory.GetCurrentDirectory() + "\\RoDData.xml";
 
             if (!File.Exists(strFileData))
             {
                 return;
             }
+
+            if (Directory.Exists(strOutDir))
+            {
+                Console.WriteLine("Make sure the directory \"audio_back\" does not exist");
+                return;
+            }Directory.CreateDirectory(strOutDir);
 
             XmlDocument doc = new XmlDocument();
             XmlNamespaceManager namespaces = new XmlNamespaceManager(doc.NameTable);
@@ -28,6 +34,7 @@ namespace audiocopy
             doc.Load(strFileData);
             if (doc.DocumentElement == null)
             {
+                Console.WriteLine("RoDData.xml is incorrect");
                 return;
             }
             foreach(XmlElement? curElement in doc.DocumentElement.ChildNodes)
@@ -65,6 +72,10 @@ namespace audiocopy
                             if(File.Exists(strTempIn) && !File.Exists(strTempOut))
                             {
                                 File.Copy(strTempIn, strTempOut);
+                            }
+                            else
+                            {
+                                Console.WriteLine("File not copied");
                             }
                         }
                     }

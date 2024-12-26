@@ -22,8 +22,6 @@ SegaPCM.exe --start=32 --length=112000 --rate=16276 --output=RE2605B_1.wav RE260
 SegaPCM.exe --start=112032 --rate=16276 --output=RE2605B_2.wav RE2605B.SD4
 SegaPCM.exe --start=32 --length=32000 --rate=16276 --output=RD5701A_1.wav RD5701A.SD4
 SegaPCM.exe --start=32032 --rate=16276 --output=RD5701A_2.wav RD5701A.SD4
-SegaPCM.exe --start=32 --length=32000 --rate=16276 --output=RD5901_1.wav RD5901.SD4
-SegaPCM.exe --start=32032 --rate=16276 --output=RD5901_2.wav RD5901.SD4
 SegaPCM.exe --start=32 --length=17500 --rate=16276 --output=RD6004_1.wav RD6004.SD4
 SegaPCM.exe --start=17532 --rate=16276 --output=RD6004_2.wav RD6004.SD4
 SegaPCM.exe --start=32 --length=138000 --rate=16276 --output=RD6501_1.wav RD6501.SD4
@@ -79,6 +77,11 @@ SegaPCM.exe --start=86032 --rate=16276 --output=RD6511_2.wav RD6511.SD4
 SegaPCM.exe --start=32 --length=105000 --rate=16276 --output=RD4001I_1.wav RD4001I.SD4
 SegaPCM.exe --start=105032 --rate=16276 --output=RD4001I_2.wav RD4001I.SD4
 
+for %%f in (*.wav) do (
+    echo %%~nf
+    RemovePop.exe %%~nf.wav
+)
+
 CombineWave.exe RD6501_2.wav RE6501.wav RD6501_c.wav
 CombineWave.exe RD6506.wav RE6506_1.wav RD6506_c.wav
 CombineWave.exe RD6521.wav RE6521.wav RF6521.wav RD6521_c.wav
@@ -121,5 +124,10 @@ CombineWave.exe RD6202D.wav RE6202D_1.wav RD6202D_c.wav
 CombineWave.exe RD6301D.wav RE6301D_1.wav RD6301D_c.wav
 CombineWave.exe RD7408.wav RE7408.wav RD7408_c.wav
 CombineWave.exe RE4501C_2.wav RF4501C.wav RF4501C_c.wav
+
+for %%f in (*_c.wav) do (
+    echo %%~nf
+    RemovePop.exe %%~nf_c.wav
+)
 
 audiocopy.exe

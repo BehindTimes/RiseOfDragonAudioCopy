@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Formats.Tar;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Xml;
+using System.Collections.Generic;
 
 namespace audiocopy
 {
@@ -12,75 +9,65 @@ namespace audiocopy
     {
         public void copyAudio()
         {
-            string strOutDir = Directory.GetCurrentDirectory() + "\\audio_back\\";
-            string strInAud = Directory.GetCurrentDirectory() + "\\";
-            string strFileData = Directory.GetCurrentDirectory() + "\\RoDData.xml";
+            string baseDir = Directory.GetCurrentDirectory();
+            string strOutDir = Path.Combine(baseDir, "WAV", "audio_back");
+            string strInAud = Path.Combine(baseDir, "WAV");
+            string strFileData = Path.Combine(baseDir, "RoDData.xml");
 
             if (!File.Exists(strFileData))
             {
+                Console.WriteLine("[ERROR] RoDData.xml not found.");
                 return;
             }
 
             if (Directory.Exists(strOutDir))
             {
-                Console.WriteLine("Make sure the directory \"audio_back\" does not exist");
-                return;
-            }Directory.CreateDirectory(strOutDir);
+                Directory.Delete(strOutDir, true);
+            }
+            Directory.CreateDirectory(strOutDir);
+
+            // Build a case-insensitive map of all WAV files in the directory
+            var fileMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+            if (Directory.Exists(strInAud)) {
+                foreach (var f in Directory.GetFiles(strInAud)) {
+                    // Manually check extension to bypass Linux *.wav case-sensitivity
+                    if (f.EndsWith(".wav", StringComparison.OrdinalIgnoreCase)) {
+                        fileMap[Path.GetFileName(f)] = f;
+                    }
+                }
+            }
 
             XmlDocument doc = new XmlDocument();
             XmlNamespaceManager namespaces = new XmlNamespaceManager(doc.NameTable);
             namespaces.AddNamespace("ns", "urn:hl7-org:v3");
-
             doc.Load(strFileData);
-            if (doc.DocumentElement == null)
+
+            foreach(XmlElement curElement in doc.DocumentElement.ChildNodes)
             {
-                Console.WriteLine("RoDData.xml is incorrect");
-                return;
-            }
-            foreach(XmlElement? curElement in doc.DocumentElement.ChildNodes)
-            {
-                if (curElement == null)
-                {
-                    continue;
-                }
+                if (curElement == null) continue;
                 string strFile = curElement.Name;
-                if(strFile.Contains("Unknown"))
+                if(strFile.Contains("Unknown")) continue;
+
+                foreach (XmlElement tempElement in curElement)
                 {
-                    continue;
-                }
-                foreach (XmlElement? tempElement in curElement)
-                {
-                    if (tempElement == null)
+                    if (tempElement == null) break;
+                    XmlNode numNode = tempElement.SelectSingleNode("descendant::Audio");
+                    if (numNode != null && tempElement.HasAttribute("ID"))
                     {
-                        break;
-                    }
-                    XmlNode? numNode = tempElement.SelectSingleNode("descendant::Audio");
-                    if (numNode != null)
-                    {
-                        if(tempElement.HasAttribute("ID"))
+                        int tempId = int.Parse(tempElement.GetAttribute("ID"));
+                        string strOutFile = "aud" + strFile + tempId.ToString() + ".wav";
+                        string expectedName = Path.GetFileNameWithoutExtension(numNode.InnerText) + ".wav";
+
+                        // Look up the file ignoring case!
+                        if (fileMap.TryGetValue(expectedName, out string actualFilePath))
                         {
-                            int tempId = int.Parse(tempElement.GetAttribute("ID"));
-                            string strOutFile = "aud" + strFile + tempId.ToString() + ".wav";
-                            string strAudioFile = numNode.InnerText;
-                            if(strAudioFile.Contains("0201"))
-                            {
-                                int j = 9;
-                            }
-                            strAudioFile = strAudioFile.Replace("SD4", "wav");
-                            string strTempIn = strInAud + strAudioFile;
-                            string strTempOut = strOutDir + strOutFile;
-                            if(File.Exists(strTempIn) && !File.Exists(strTempOut))
-                            {
-                                File.Copy(strTempIn, strTempOut);
-                            }
-                            else
-                            {
-                                Console.WriteLine("File not copied");
-                            }
+                            string strTempOut = Path.Combine(strOutDir, strOutFile);
+                            File.Copy(actualFilePath, strTempOut, true);
                         }
                     }
                 }
             }
+            Console.WriteLine("Renaming Rise of the Dragon Files Complete!");
         }
     }
 }

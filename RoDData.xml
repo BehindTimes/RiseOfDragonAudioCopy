@@ -11194,12 +11194,12 @@
     <Dialog ID="6">
       <Time>180</Time>
       <Text>KARYN:Unnhhh.</Text>
-      <Audio>RD5901_1.SD4</Audio>
+      <Audio>RD5901.SD4</Audio>
     </Dialog>
     <Dialog ID="7">
       <Time>180</Time>
       <Text>KARYN:AAAARRRRRRGGGGHH!!</Text>
-      <Audio>RD5901_2.SD4</Audio>
+      <Audio>RE5901.SD4</Audio>
     </Dialog>
     <Dialog ID="8">
       <Time>180</Time>

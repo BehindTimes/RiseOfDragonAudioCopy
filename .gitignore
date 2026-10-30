@@ -361,3 +361,15 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignore copyrighted game assets and generated audio
+SD4/
+WAV/
+
+# Ignore pre-built Windows tools, Linux binaries, and temp files
+*.exe
+*.dll
+audiocopy.runtimeconfig.json
+combine_wav
+remove_pop
+audio/
